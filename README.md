@@ -1,5 +1,11 @@
 # ai-electron-template
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+![Node](https://img.shields.io/badge/node-18%2B-brightgreen)
+![Electron](https://img.shields.io/badge/electron-42-blue)
+![React](https://img.shields.io/badge/react-18-61dafb)
+![TypeScript](https://img.shields.io/badge/typescript-strict-blue)
+
 A production-ready Electron + React template with AI-ready architecture. Built for type-safe, secure desktop applications with Claude Code integration.
 
 ## What It Is
@@ -11,6 +17,14 @@ A modern Electron application template combining:
 - **Vite** — Fast bundling and HMR
 - **shadcn/ui** — Radix-based component library
 - **IPC Architecture** — Typed, secure main/renderer communication
+
+## Use Cases
+
+Perfect for building:
+- **AI-integrated desktop tools** — Chat apps, code editors, analysis tools powered by Claude or other LLMs
+- **Secure file utilities** — Apps that safely handle files with system-level access (encrypted storage, batch processing)
+- **Developer tools** — Cross-platform CLIs with rich UIs, dashboards, code generators
+- **System integrations** — Real-time monitoring, background workers with typed async communication
 
 ## What It Can Do
 
