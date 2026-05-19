@@ -13,9 +13,10 @@ A production-ready Electron + React template with AI-ready architecture. Built f
 A modern Electron application template combining:
 - **Electron 42** — Cross-platform desktop framework
 - **React 18 + TypeScript** — UI with strict type checking
-- **Tailwind CSS 4** — Modern styling (Windows 11 design language)
+- **Tailwind CSS 4** — Modern styling with Windows 11 design language
 - **Vite** — Fast bundling and HMR
 - **shadcn/ui** — Radix-based component library
+- **Windows 11 Design Language** — Segoe UI, neutral palette, subtle motion
 - **IPC Architecture** — Typed, secure main/renderer communication
 
 ## Use Cases
