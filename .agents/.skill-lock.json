@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-05-18T07:02:37.549Z",
+      "updatedAt": "2026-05-18T07:02:37.549Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "343db72180d05814949fef7d46be96b5c6ee86b3",
+      "installedAt": "2026-05-19T07:49:25.534Z",
+      "updatedAt": "2026-05-19T07:49:25.534Z"
+    },
+    "electron-dev": {
+      "source": "jamditis/claude-skills-journalism",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamditis/claude-skills-journalism.git",
+      "skillPath": "dev-toolkit/skills/electron-dev/SKILL.md",
+      "skillFolderHash": "0a1173a7e66511f89d15982279301651f3b8ad29",
+      "installedAt": "2026-05-19T07:55:06.120Z",
+      "updatedAt": "2026-05-19T07:55:06.120Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "dexto",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
+}
