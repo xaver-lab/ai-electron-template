@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "electron-desktop": {
+      "source": "travisjneuman/.claude",
+      "sourceType": "github",
+      "skillPath": "skills/electron-desktop/SKILL.md",
+      "computedHash": "9529a99cb7f00b81fa237357aed247a44c14148dc54d12fd6a4adbed42d5f973"
+    },
+    "electron-dev": {
+      "source": "jamditis/claude-skills-journalism",
+      "sourceType": "github",
+      "skillPath": "dev-toolkit/skills/electron-dev/SKILL.md",
+      "computedHash": "21b73bc20015c4aa105512ced3d1dad6409105193c5e610e9f618fc13eff8f2a"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "ca7b0c0c6e5f2750043f7f0cd72d16ac4e2abc48f9b5500d047a4b77a2506212"
+    }
+  }
+}
