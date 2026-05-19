@@ -1,9 +1,11 @@
 /// <reference types="vite/client" />
 
-interface Window {
-  api: {
-    send: (channel: string, data?: unknown) => void
-    invoke: (channel: string, data?: unknown) => Promise<unknown>
-    on: (channel: string, callback: (...args: unknown[]) => void) => () => void
+import type { RendererApi } from '../shared/api'
+
+declare global {
+  interface Window {
+    api: RendererApi
   }
 }
+
+export {}

@@ -1,11 +1,18 @@
 import { contextBridge, ipcRenderer } from 'electron'
+import { IpcChannels } from '../shared/ipc-contracts'
+import type { RendererApi } from '../shared/api'
 
-contextBridge.exposeInMainWorld('api', {
-  send: (channel: string, data?: unknown) => ipcRenderer.send(channel, data),
-  invoke: (channel: string, data?: unknown) => ipcRenderer.invoke(channel, data),
-  on: (channel: string, callback: (...args: unknown[]) => void) => {
-    const listener = (_event: Electron.IpcRendererEvent, ...args: unknown[]) => callback(...args)
-    ipcRenderer.on(channel, listener)
-    return () => ipcRenderer.removeListener(channel, listener)
+/**
+ * Typed API surface exposed to the renderer.
+ *
+ * The renderer NEVER sees `ipcRenderer`, raw channel names, or a generic
+ * `invoke`. Every callable is a named domain method whose signature is
+ * derived from `IpcContracts` in `src/shared/`.
+ */
+const api: RendererApi = {
+  app: {
+    getVersion: () => ipcRenderer.invoke(IpcChannels.app.getVersion)
   }
-})
+}
+
+contextBridge.exposeInMainWorld('api', api)

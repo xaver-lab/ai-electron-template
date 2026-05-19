@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.base.json",
-  "include": ["src/renderer/**/*", "src/renderer/env.d.ts"],
+  "include": ["src/renderer/**/*", "src/renderer/env.d.ts", "src/shared/**/*"],
   "compilerOptions": {
     "composite": true,
     "useDefineForClassFields": true,
