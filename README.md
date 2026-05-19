@@ -6,12 +6,12 @@
 ![React](https://img.shields.io/badge/react-18-61dafb)
 ![TypeScript](https://img.shields.io/badge/typescript-strict-blue)
 
-A production-ready Electron + React template with AI-ready architecture. Built for type-safe, secure desktop applications with Claude Code integration.
+A production-ready Electron + React template optimized for Windows 11. Built for type-safe, secure desktop applications with AI integration and Claude Code support.
 
 ## What It Is
 
-A modern Electron application template combining:
-- **Electron 42** — Cross-platform desktop framework
+A modern Electron application template optimized for Windows 11, combining:
+- **Electron 42** — Windows desktop application framework
 - **React 18 + TypeScript** — UI with strict type checking
 - **Tailwind CSS 4** — Modern styling with Windows 11 design language
 - **Vite** — Fast bundling and HMR
