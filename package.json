@@ -1,5 +1,5 @@
 {
-  "name": "controling-garden",
+  "name": "ai-electron-template",
   "version": "0.1.0",
   "description": "ControlingGarden - Electron App",
   "main": "./out/main/index.js",
